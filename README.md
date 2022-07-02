@@ -74,18 +74,18 @@ For example, for our **myreactnativeproject**, we need to be into the root of th
 
 Then we just execute this command line, providing the script source and the variables to modify : 
 
-`generativ --url myJsonUrl --params variable1="test"`
+**`generativ --url myJsonUrl --params variable1="test"`**
 
 
 
-If we have multiply variables to modify, we can separate them with ```+``` :
+If we have multiple variables to modify, we can separate them with ```+``` :
 
-`generativ --url myJsonUrl --params variable1="test"+variable2="test2"+variable3="test3"`
+**`generativ --url myJsonUrl --params variable1="test"+variable2="test2"+variable3="test3"`**
 
 
 
 With the example above : 
 
-`generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json --params text="Un test simple"`
+**`generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json --params text="Un test simple"`**
 
 

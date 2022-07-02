@@ -1,7 +1,7 @@
 {
     "name": "insertRocket",
     "uid": "TETEFEFkfekfkelfkelfelkdkckvekfeueregek",
-    "description": "This script inserts two simple comment into a file",
+    "description": "This script inserts three simple comments into two files",
     "instructions": [
         {
             "mode": "file",

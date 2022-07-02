@@ -13,7 +13,7 @@
 
 Example script ⬇️
 
-This script is hosted here : [Click here](https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/insertRocketTwoFilesAdvancedModified.json)
+This script is hosted here : [Click here](https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json)
 
 ```json
 {
@@ -86,6 +86,6 @@ If we have multiply variables to modify, we can separate them with ```+``` :
 
 With the example above : 
 
-`generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/insertRocketTwoFilesAdvancedModified.json --params text="Un test simple"`
+`generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json --params text="Un test simple"`
 
 

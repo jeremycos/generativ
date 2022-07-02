@@ -1,6 +1,6 @@
 # Generativ
 
-**Generativ** is a lightweight global library that generates code in seconds with resusable and sharable scripts. Setup, upgrade or automate any code in a matter of seconds!
+**Generativ** is a lightweight global library that generates code with resusable and sharable scripts. Setup, upgrade or automate any code in a matter of seconds!
 
 
 ## 1. Install the package globally
@@ -85,6 +85,7 @@ If we have multiply variables to modify, we can separate them with ```+``` :
 
 
 With the example above : 
+
 `generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/insertRocketTwoFilesAdvancedModified.json --params text="Un test simple"`
 
 

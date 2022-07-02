@@ -1,0 +1,43 @@
+{
+    "name": "insertRocket",
+    "uid": "TETEFEFkfekfkelfkelfelkdkckvekfeueregek",
+    "description": "This script inserts two simple comment into a file",
+    "instructions": [
+        {
+            "mode": "file",
+            "file": "comment.tsx",
+            "actions": [
+                {
+                    "type": "add_before",
+                    "reference": "const reactions: any = {",
+                    "code": "\n//Rocket setup\n",
+                    "isUnique": true
+                },
+                {
+                    "type": "add_after",
+                    "reference": "const reactions: any = {",
+                    "code": "\n//Rocket setup %text\n",
+                    "variables": [
+                        {
+                            "name": "text",
+                            "defaultValue": "Texte à insérer"
+                        }
+                    ],
+                    "isUnique": true
+                }
+            ]
+        },
+        {
+            "mode": "file",
+            "file": "floating-input/floating-input.tsx",
+            "actions": [
+                {
+                    "type": "add_before",
+                    "reference": "export function FloatingInput(props) {",
+                    "code": "\n//Rocket setup\n",
+                    "isUnique": true
+                }
+            ]
+        }
+    ]
+}

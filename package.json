@@ -1,0 +1,34 @@
+{
+  "name": "generativ",
+  "version": "1.0.0",
+  "description": "Generativ generates code in your project using reusable and sharable scripts. Setup, upgrade & automate any code in a matter of seconds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremycos/generativ.git"
+  },
+  "keywords": [
+    "generate",
+    "code",
+    "automation",
+    "setup",
+    "upgrade"
+  ],
+  "author": "Jérémy Barbier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremycos/generativ/issues"
+  },
+  "homepage": "https://github.com/jeremycos/generativ#readme",
+  "dependencies": {
+    "findit": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "jsonschema": "^1.4.1",
+    "node-fetch": "^3.2.6",
+    "path": "^0.12.7"
+  }
+}

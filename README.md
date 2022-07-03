@@ -94,9 +94,9 @@ With the example above :
 ## More to come (feel free to work on these new functionnalities ) : 
 
 - **New actions** : `remove_between`, `remove_exact`, `replace_exact`,`add_first`, `add_last`
-- **Command line mode** : To mix file and command in script instruction together
+- **Command line mode** : To mix file and command-line into an instruction script
 - **Batch modification for file mode** : Now, the instructions are executed sequentially, but we want to execute it only if all files and references are founded (and are unique) before making the actions. So we need to check first if all files of instructions are present, and then we batch modify everything
-- **Undo instruction command** : To remove the past instruction in on command line *`generativ --undo`**
+- **Undo instruction command** : To remove the past instruction in on command line **`generativ --undo`**
 - **Genarativ cloud**. A cloud space to host public scripts with a unique identifier + your own private reusable components or functionnalities. Each private generativ cloud space is linked to a private githubpages, so people can work easily on this repo.
 - **Push command** : **`generativ --push myfile1+myfile2+myfile3 --public`** will generate a script for adding a new files into the `/*Gstart*/`and `/*Gend*/` comments, atttribute a unique identifier and host it on generativ cloud. **`generativ --push myfile1+myfile2+myfile3 --private`** will push create a script and host it on my private generativ cloud repositery
 

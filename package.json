@@ -1,6 +1,6 @@
 {
   "name": "generativ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generativ generates code in your project using reusable and sharable scripts. Setup, upgrade & automate any code in a matter of seconds.",
   "main": "index.js",
   "scripts": {

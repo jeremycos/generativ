@@ -1,6 +1,6 @@
 # Generativ
 
-**Generativ** is a lightweight global library that generates code with resusable and sharable scripts. Setup, upgrade or automate any code in a matter of seconds!
+**Generativ** is a global metaprogramming library that generates code with resusable and sharable scripts. Setup, upgrade or automate any code in a matter of seconds!
 
 
 ## 1. Install the package globally
@@ -68,7 +68,9 @@ This script has 2 instructions :
 
 ## 3. Go to the root target of your project directory and execute the command line
 
-For example, for our **myreactnativeproject**, we need to be into the root of this directory. So in `myreactnativeproject`. 
+For example, for our **myreactnativeproject**, we need to be into the root of this directory. So :
+
+ **` cd myreactnativeproject`.**
 
 
 

@@ -13,16 +13,16 @@
 
 Example script ⬇️
 
-This script is hosted here : [Click here](https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json)
+This script is hosted here : [Click here](https://jeremycos.github.io/generativ/f790ec98-c57e-406b-9a6b-94f3a53ed09a.json)
 
 ```json
 {
     "name": "insertRocket",
-    "uid": "TETEFEFkfekfkelfkelfelkdkckvekfeueregek",
+    "uid": "f790ec98-c57e-406b-9a6b-94f3a53ed09a",
     "description": "This script inserts three simple comments into two files",
     "instructions": [
         {
-            "mode": "file",
+            "mode": "update_file",
             "file": "comment.tsx",
             "actions": [
                 {
@@ -76,28 +76,28 @@ For example, for our **myreactnativeproject**, we need to be into the root of th
 
 Then we just execute this command line, providing the script source and the variables to modify : 
 
-**`generativ --url myJsonUrl --params variable1="test"`**
+**`generativ --get myJsonUrl --params variable1="test"`**
 
 
 
 If we have multiple variables to modify, we can separate them with ```+``` :
 
-**`generativ --url myJsonUrl --params variable1="test"+variable2="test2"+variable3="test3"`**
+**`generativ --get myJsonUrl --params variable1="test"+variable2="test2"+variable3="test3"`**
 
 
 
-With the example above : 
+Example : 
 
-**`generativ --url https://storage.googleapis.com/rocketsetup-2ded0.appspot.com/example-script.json --params text="Un test simple"`**
+**`generativ --get https://jeremycos.github.io/generativ/withexecutecommand.json --params text="Un test simple"`**
 
 
 ## More to come (feel free to work on these new functionnalities ) : 
 
-- **New actions** : `remove_between`, `remove_exact`, `replace_exact`,`add_first`, `add_last`
-- **Command line mode** : To mix file and command-line into an instruction script
+- **New actions** : `remove_exact`✅, `replace_exact`✅,`add_first`✅, `add_last`✅, `replace_regex`(to correct)
+- **Command line mode** : To mix file and command-line into an instruction script ✅ (but verify asynchronous)
 - **Batch modification for file mode** : Now, the instructions are executed sequentially, but we want to execute it only if all files and references are founded (and are unique) before making the actions. So we need to check first if all files of instructions are present, and then we batch modify everything
 - **Undo instruction command** : To remove the past instruction in on command line **`generativ --undo`**
-- **Genarativ cloud**. A cloud space to host public scripts with a unique identifier + your own private reusable components or functionnalities. Each private generativ cloud space is linked to a private githubpages, so people can work easily on this repo.
+- **Genarativ cloud**. A cloud space to host public scripts with a unique identifier + your own private reusable components or functionnalities. Each private generativ cloud space is linked to a private githubpages, so people can work easily on this repo. ✅ repo is available at https://jeremycos.github.io/generativ/+uid
 - **Push command** : **`generativ --push myfile1+myfile2+myfile3 --public`** will generate a script for adding a new files into the `/*Gstart*/`and `/*Gend*/` comments, atttribute a unique identifier and host it on generativ cloud. **`generativ --push myfile1+myfile2+myfile3 --private`** will push create a script and host it on my private generativ cloud repositery
 
 

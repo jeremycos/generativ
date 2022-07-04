@@ -1,8 +1,10 @@
 # Generativ
 
-**Generativ** is a global metaprogramming library that generates code with resusable and sharable JSON scripts. Setup, upgrade or automate any code in a matter of seconds!
+**Generativ** is a global metaprogramming library that generates code with reusable and sharable JSON scripts. Setup, upgrade or automate any code in a matter of seconds!
 
 **Generativ cloud** is the public repertory containing all the scripts used for setup, correct bugs. They all have a unique identifier. It's available here : [Click here](https://github.com/jeremycos/jeremycos.github.io/tree/main/generativ).
+
+**Generativ front** is a drag and drop builder used to setup in seconds a new React Project. You just add the components and the libraries, and it setup everything in one line.
 
 
 ## 1. Install the package globally

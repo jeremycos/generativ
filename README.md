@@ -48,7 +48,7 @@ This script is hosted here : [Click here](https://jeremycos.github.io/generativ/
             ]
         },
         {
-            "mode": "file",
+            "mode": "update_file",
             "file": "floating-input/floating-input.tsx",
             "actions": [
                 {

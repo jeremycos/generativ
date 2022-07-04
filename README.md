@@ -1,6 +1,8 @@
 # Generativ
 
-**Generativ** is a global metaprogramming library that generates code with resusable and sharable scripts. Setup, upgrade or automate any code in a matter of seconds!
+**Generativ** is a global metaprogramming library that generates code with resusable and sharable JSON scripts. Setup, upgrade or automate any code in a matter of seconds!
+
+**Generativ cloud** is the public repertory containing all the scripts used for setup, correct bugs. They all have a unique identifier. It's available here : [Click here](https://github.com/jeremycos/jeremycos.github.io/tree/main/generativ).
 
 
 ## 1. Install the package globally

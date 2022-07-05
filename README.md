@@ -95,9 +95,9 @@ Example :
 **`generativ --get https://jeremycos.github.io/generativ/withexecutecommand.json --params text="Un test simple"`**
 
 
-## More to come (feel free to work on these new functionnalities ) : 
+## More to come (feel free to work on these new functionnalities ) :
 
-- **New actions** : `remove_exact`✅, `replace_exact`✅,`add_first`✅, `add_last`✅, `replace_regex`(to correct)
+- **New actions** : `remove_exact`✅, `replace_exact`✅,`add_first`✅, `add_last`✅, `add_between`✅, `replace_regex`(to correct)
 - **Command line mode** : To mix file and command-line into an instruction script ✅ (but verify asynchronous)
 - **Batch modification for file mode** : Now, the instructions are executed sequentially, but we want to execute it only if all files and references are founded (and are unique) before making the actions. So we need to check first if all files of instructions are present, and then we batch modify everything
 - **Undo instruction command** : To remove the past instruction in on command line **`generativ --undo`**
